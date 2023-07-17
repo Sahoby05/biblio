@@ -1,0 +1,137 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: 'poppins', sans-serif;
+     scroll-behavior: smooth;
+ }
+
+ p {
+     font-weight: 300;
+     color: #111;
+ }
+
+ header {
+     position: fixed;
+     top: 0%;
+     left: 0%;
+     padding: 20px 10px;
+     width: 100%;
+     z-index: 1;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     transition: 0.5s;
+ }
+
+ .logo {
+     /*color: #fff;*/
+     font-weight: bold;
+     font-size: 2em;
+     text-decoration: none;
+
+ }
+
+ .logo span {
+     color: #fb901f;
+ }
+
+ .navbar {
+     display: flex;
+     position: relative;
+
+ }
+
+ .navbar li {
+     list-style: none;
+ }
+
+ .navbar a {
+     /*color: #fff;*/
+     text-decoration: none;
+     margin-left: 30px;
+     font-weight: 700;
+ }
+
+ .login {
+     padding: 10px 20px;
+     background: #fb901f;
+     margin-top: -10px;
+     text-transform: uppercase;
+ }
+
+ .login:hover {
+     background: #d87710;
+     transition: ease-out;
+ }
+
+ .banniere {
+     position: relative;
+     width: 100%;
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-image: url(./images/biblio.jpg);
+     background-size: cover;
+ }
+
+ .banniere .contenu {
+     max-width: 70%;
+     text-align: center;
+ }
+
+ .banniere .contenu h2 {
+     color: #fff;
+     font-size: 3em;
+     text-transform: capitalize;
+ }
+
+ .contenu p:nth-child(2) {
+     color: #fff;
+     font-size: 1.2em;
+ }
+
+ section {
+     padding: 100px;
+ }
+
+ .row {
+     position: relative;
+     width: 100px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .row .col {
+     float: right;
+     width: 48%;
+     justify-content: right;
+     align-items: center;
+
+ }
+
+ .row .col50 h2 {
+     margin-bottom: 20px;
+
+ }
+
+
+ .titre-texte {
+     color: #000;
+     font-size: 2em;
+     font-weight: 300px;
+     text-transform: capitalize;
+ }
+
+ .titre-texte span {
+     color: #fb901f;
+     font-size: 1.5em;
+     font-weight: 700px;
+ }
+
+ .row .col img {
+     height: 350px;
+     width: 200px;
+     position: relative;
+ }
